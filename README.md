@@ -12,6 +12,7 @@ A minimalist Chrome extension that replaces your new tab with a live countdown t
 Open Claude and just copy paste my prompt into your Claude. Make sure to edit the inputs like deadline date and time, title, any quote if you want, etc 
 
 ### Prompt
+{Prompt Starts Here}
 Build me a complete Chrome New Tab Extension that replaces my default new tab page with a live countdown timer. I need you to generate all the files as a downloadable package (.zip) that I can install in Chrome via chrome://extensions → "Load unpacked".
 ### My Inputs
 - Countdown Title: [YOUR TITLE HERE — e.g., "Last Day of Classes"]
@@ -62,6 +63,8 @@ Seconds (2-digit padded, e.g., 57)
 - No unnecessary permissions in the manifest.
 - No frameworks — keep it vanilla HTML/CSS/JS.
 - No clutter or extra UI elements.
+
+{Prompt Ends Here}
 
 ## Deployment Steps-to-follow
 1. Open chrome://extensions in Chrome
